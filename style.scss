@@ -1,4 +1,5 @@
 $primary: #53b6d0;
+$medium: "screen and (min-width : 768px)";
 
 * {
     font-family: "Abel";
@@ -20,6 +21,10 @@ p {
     font-size: 1.3em;
 }
 
+img {
+    max-width: 100%;
+}
+
 .avatar {
     text-align: center;
 }
@@ -28,4 +33,9 @@ p {
     border: 3px solid $primary;
     box-shadow: 5px 5px 5px #999;
     padding-bottom: 7px;
+    margin: 30px 0;
+    
+    @media #{$medium} {
+        margin: 60px 0 0;
+    }
 }

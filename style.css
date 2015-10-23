@@ -1,31 +1,40 @@
-/* line 3, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 4, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 * {
   font-family: "Abel"; }
 
-/* line 7, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 8, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 body {
   padding-top: 50px; }
 
-/* line 11, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 12, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .bg-primary {
   background: #53b6d0; }
 
-/* line 15, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 16, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .color-primary {
   color: #53b6d0; }
 
-/* line 19, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 20, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 p {
   font-size: 1.3em; }
 
-/* line 23, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 24, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+img {
+  max-width: 100%; }
+
+/* line 28, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .avatar {
   text-align: center; }
 
-/* line 27, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+/* line 32, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .card {
   border: 3px solid #53b6d0;
   box-shadow: 5px 5px 5px #999;
-  padding-bottom: 7px; }
+  padding-bottom: 7px;
+  margin: 30px 0; }
+  @media screen and (min-width: 768px) {
+    /* line 32, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+    .card {
+      margin: 60px 0 0; } }
 
 /*# sourceMappingURL=style.css.map */
