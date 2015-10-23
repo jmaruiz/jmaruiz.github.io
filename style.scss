@@ -4,6 +4,10 @@ $primary: #53b6d0;
     font-family: "Abel";
 }
 
+body {
+    padding-top: 50px;
+}
+
 .bg-primary {
     background: $primary;
 }
@@ -14,4 +18,9 @@ $primary: #53b6d0;
 
 p {
     font-size: 1.3em;
+}
+
+.card {
+    border: 1px solid $primary;
+    box-shadow: 5px 5px 5px #999;
 }

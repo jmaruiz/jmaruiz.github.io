@@ -1,13 +1,26 @@
+/* line 3, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 * {
   font-family: "Abel"; }
 
+/* line 7, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+body {
+  padding-top: 50px; }
+
+/* line 11, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .bg-primary {
   background: #53b6d0; }
 
+/* line 15, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .color-primary {
   color: #53b6d0; }
 
+/* line 19, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 p {
   font-size: 1.3em; }
+
+/* line 23, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+.card {
+  border: 1px solid #53b6d0;
+  box-shadow: 5px 5px 5px #999; }
 
 /*# sourceMappingURL=style.css.map */
