@@ -20,7 +20,12 @@ p {
     font-size: 1.3em;
 }
 
+.avatar {
+    text-align: center;
+}
+
 .card {
-    border: 1px solid $primary;
+    border: 3px solid $primary;
     box-shadow: 5px 5px 5px #999;
+    padding-bottom: 7px;
 }

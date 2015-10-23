@@ -19,8 +19,13 @@ p {
   font-size: 1.3em; }
 
 /* line 23, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
+.avatar {
+  text-align: center; }
+
+/* line 27, /Users/joseruiz/Documents/Web/jmaruiz.github.io/style.scss */
 .card {
-  border: 1px solid #53b6d0;
-  box-shadow: 5px 5px 5px #999; }
+  border: 3px solid #53b6d0;
+  box-shadow: 5px 5px 5px #999;
+  padding-bottom: 7px; }
 
 /*# sourceMappingURL=style.css.map */
