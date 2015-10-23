@@ -1,3 +1,13 @@
+* {
+  font-family: "Abel"; }
 
+.bg-primary {
+  background: #53b6d0; }
+
+.color-primary {
+  color: #53b6d0; }
+
+p {
+  font-size: 1.3em; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+$primary: #53b6d0;
+
+* {
+    font-family: "Abel";
+}
+
+.bg-primary {
+    background: $primary;
+}
+
+.color-primary {
+    color: $primary;
+}
+
+p {
+    font-size: 1.3em;
+}
