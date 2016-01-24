@@ -60,6 +60,27 @@ img {
     max-width: 100%;
 }
 
+.hero {
+    img {
+        width: 100%;
+        @media #{$medium} {
+            float: left;
+            width: 50%;
+        }
+    }
+
+    .hero-text {
+        padding: 0 15px 15px;
+        width: 100%;
+        
+        @media #{$medium} {
+            float: left;
+            padding: 15px;
+            width: 50%;
+        }
+    }
+}
+
 .work-experience {
     padding-bottom: 15px;
 }
@@ -81,4 +102,17 @@ img {
 
 .progress-bar-info {
     background-color: $secondary;
+}
+
+a {
+    &.icon-link {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.footer {
+    padding-bottom: 10px;
 }
