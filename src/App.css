@@ -1,0 +1,54 @@
+/* background-color: #282c34; */
+/* logo color = #302f30; */
+.body {
+  background-color: #302f30;
+}
+.logo {
+  height: 75%;
+  width: auto;
+}
+.header {
+  height: 100vh;
+}
+.header .bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  transform: skewY(-3.5deg);
+  transform-origin: top left;
+}
+.header .hero {
+  padding-top: 15vh;
+  margin: auto;
+}
+.header .left {
+  text-align: right;
+}
+.header .right .info {
+  margin-top: 20%;
+}
+.header .social a,
+.header .social a:visited {
+  font-size: 2rem;
+  margin: 0 1rem 0 0;
+  color: #302f30;
+}
+.header .social a:hover,
+.header .social a:focus,
+.header .social a:active {
+  color: #727272;
+}
+.about {
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+.about .about-me {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
