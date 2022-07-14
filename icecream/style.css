@@ -1,0 +1,131 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+    background-image: linear-gradient(#91c0d9, #eee);
+}
+
+.icecream-container {
+    max-width: 500px !important;
+}
+
+.main-art {
+    max-width: 100%; 
+    width: 450px;
+    border-radius: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.social-button {
+    border-radius: 20px;
+    border: 1px solid #444;
+    color: #222;
+    padding: 2px 0 4px;
+    display: block;
+    margin: 1rem 0 0;
+    line-height: 1;
+    text-decoration: none;
+    width: 250px;
+}
+
+.social-button:hover {
+    background-color: #222;
+    color: #eee;
+    fill: #eee;
+}
+
+.social-icon {
+    padding: 0;
+    margin: 0 8px 0 15px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    background-color: #222;
+}
+
+.social-label {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.footer {
+    font-size: 0.8rem;
+}
+
+.spotify {
+    background: url('images/spotify.svg') no-repeat center / contain;
+}
+.social-button:hover .spotify {
+    background: #eee;
+    mask: url('images/spotify.svg') no-repeat center / contain;
+    -webkit-mask: url('images/spotify.svg') no-repeat center / contain;
+}
+
+.apple {
+    background: url('images/apple.svg') no-repeat center / contain;
+}
+.social-button:hover .apple {
+    background: #eee;
+    mask: url('images/apple.svg') no-repeat center / contain;
+    -webkit-mask: url('images/apple.svg') no-repeat center / contain;
+}
+
+.youtube {
+    background: url('images/youtube.svg') no-repeat center / contain;
+}
+.social-button:hover .youtube {
+    background: #eee;
+    mask: url('images/youtube.svg') no-repeat center / contain;
+    -webkit-mask: url('images/youtube.svg') no-repeat center / contain;
+}
+
+.amazon {
+    background: url('images/amazon.svg') no-repeat center / contain;
+}
+.social-button:hover .amazon {
+    background: #eee;
+    mask: url('images/amazon.svg') no-repeat center / contain;
+    -webkit-mask: url('images/amazon.svg') no-repeat center / contain;
+}
+
+.deezer {
+    background: url('images/deezer.svg') no-repeat center / contain;
+}
+.social-button:hover .deezer {
+    background: #eee;
+    mask: url('images/deezer.svg') no-repeat center / contain;
+    -webkit-mask: url('images/deezer.svg') no-repeat center / contain;
+}
+
+.itunes {
+    background: url('images/itunes.svg') no-repeat center / contain;
+}
+.social-button:hover .itunes {
+    background: #eee;
+    mask: url('images/itunes.svg') no-repeat center / contain;
+    -webkit-mask: url('images/itunes.svg') no-repeat center / contain;
+}
