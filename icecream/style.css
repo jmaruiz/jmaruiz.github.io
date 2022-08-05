@@ -22,6 +22,7 @@ dd {
 
 body {
     background-image: linear-gradient(#91c0d9, #eee);
+    height: 100vh;
 }
 
 .icecream-container {
